@@ -36,7 +36,8 @@ export default defineStackbitConfig({
           name: 'services',
           label: 'Services',
           file: 'content/data/services.json',
-          // FIX: Removed invalid `isList` property. The `items` property correctly defines this as a list data model.
+          // FIX: Added `isList: true` to define this as a list data model. The `items` property is only valid when `isList` is true.
+          isList: true,
           items: {
             type: 'model',
             models: ['ServiceItem'],
@@ -78,7 +79,8 @@ export default defineStackbitConfig({
           name: 'projects',
           label: 'Gallery Projects',
           file: 'content/data/projects.json',
-          // FIX: Removed invalid `isList` property. The `items` property correctly defines this as a list data model.
+          // FIX: Added `isList: true` to define this as a list data model. The `items` property is only valid when `isList` is true.
+          isList: true,
           items: {
             type: 'model',
             models: ['ProjectItem'],
@@ -89,8 +91,8 @@ export default defineStackbitConfig({
             name: 'ProjectItem',
             label: 'Project',
             fields: [
-                { type: 'image', name: 'beforeSrc', label: 'Before Image', required: true },
-                { type: 'image', name: 'afterSrc', label: 'After Image', required: true },
+                // FIX: Changed fields to match the `Project` type (`imageSrc` and `caption`) used in the application.
+                { type: 'image', name: 'imageSrc', label: 'Image', required: true },
                 { type: 'string', name: 'caption', label: 'Caption', required: true },
             ]
         },
@@ -101,7 +103,8 @@ export default defineStackbitConfig({
           name: 'testimonials',
           label: 'Testimonials',
           file: 'content/data/testimonials.json',
-          // FIX: Removed invalid `isList` property. The `items` property correctly defines this as a list data model.
+          // FIX: Added `isList: true` to define this as a list data model. The `items` property is only valid when `isList` is true.
+          isList: true,
           items: {
             type: 'model',
             models: ['TestimonialItem'],
@@ -125,7 +128,8 @@ export default defineStackbitConfig({
           name: 'faq',
           label: 'FAQ Items',
           file: 'content/data/faq.json',
-          // FIX: Removed invalid `isList` property. The `items` property correctly defines this as a list data model.
+          // FIX: Added `isList: true` to define this as a list data model. The `items` property is only valid when `isList` is true.
+          isList: true,
           items: {
             type: 'model',
             models: ['FaqItemData'],

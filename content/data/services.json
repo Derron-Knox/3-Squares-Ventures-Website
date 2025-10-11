@@ -13,9 +13,9 @@
     "detailedDescription": "Our comprehensive demolition services cover every phase of your project, from initial assessment and permitting to final site cleanup. We utilize modern equipment and proven techniques to ensure every job, whether a selective interior gut-out or a complete building teardown, is performed safely, efficiently, and in compliance with all local regulations. We are committed to responsible debris management, recycling materials whenever possible to minimize environmental impact.",
     "projectExamples": [
       {
-        "title": "Single-Family Home Teardown",
-        "description": "Complete demolition of a fire-damaged 2,500 sq ft house, including foundation removal and site grading for new construction.",
-        "image": "https://images.unsplash.com/photo-1604480133478-55b273b5d27cd?q=75&w=800&auto=format&fit=crop"
+        "title": "Home Teardown & Site Grading",
+        "description": "Complete demolition of a residential property, followed by site clearing and grading for new construction.",
+        "image": "/gallery-demolition.jpg"
       },
       {
         "title": "Commercial Interior Gut-Out",
@@ -48,14 +48,14 @@
     "detailedDescription": "Whether you're looking to update a single room or transform your entire home, our skilled team manages every detail of the remodeling process. We combine quality craftsmanship with premium materials to bring your vision to life. Our process is collaborative, ensuring we understand your needs and style to create a space that is both beautiful and functional, all while respecting your budget and timeline.",
     "projectExamples": [
       {
-        "title": "Modern Kitchen Overhaul",
-        "description": "Complete gut and remodel of a 1980s kitchen, featuring custom cabinetry, quartz countertops, and a functional island.",
-        "image": "https://images.unsplash.com/photo-1556911220-e1af84793e35?q=75&w=800&auto=format&fit=crop"
+        "title": "Full Bathroom Renovation",
+        "description": "Complete gut and remodel of an outdated bathroom, featuring new tile, vanity, and modern fixtures.",
+        "image": "/gallery-bathroom-remodel.jpg"
       },
       {
-        "title": "Post-Storm Insurance Restoration",
-        "description": "Managed an insurance claim for a fallen tree; roof repairs, siding replacement, and structural fixes all coordinated with the insurer.",
-        "image": "https://images.unsplash.com/photo-1563242091-53644036f06a?q=75&w=800&auto=format&fit=crop"
+        "title": "Asphalt Shingle Roof Replacement",
+        "description": "Full tear-off and replacement of an aging roof with new architectural shingles, ensuring long-term protection.",
+        "image": "/gallery-roof-replacement.jpg"
       }
     ],
     "safetyProtocols": [
@@ -176,9 +176,9 @@
     "detailedDescription": "Over time, dirt, grime, mold, and mildew can build up on your property's exterior surfaces, diminishing its appearance and value. Our professional pressure washing services safely and effectively remove these stubborn contaminants. We use state-of-the-art equipment and adjustable pressure settings to clean a wide variety of surfaces—from delicate vinyl siding to durable concrete—without causing damage. Revitalize your home or business and protect your investment with a thorough, professional cleaning.",
     "projectExamples": [
       {
-        "title": "Driveway Grime Removal",
-        "description": "Restored a heavily stained concrete driveway to its original bright finish, removing years of oil stains and dirt buildup.",
-        "image": "https://images.unsplash.com/photo-1607528994510-53472a2353a2?q=75&w=800&auto=format&fit=crop"
+        "title": "Brick & Concrete Power Washing",
+        "description": "Restored a brick facade and concrete patio to their original appearance, removing years of dirt and grime.",
+        "image": "/gallery-pressure-washing.jpg"
       },
       {
         "title": "Vinyl Siding Mold & Mildew Treatment",

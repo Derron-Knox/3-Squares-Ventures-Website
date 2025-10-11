@@ -18,8 +18,7 @@ export interface Service {
 }
 
 export interface Project {
-  beforeSrc: string;
-  afterSrc: string;
+  imageSrc: string;
   caption: string;
 }
 
