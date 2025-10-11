@@ -2,7 +2,18 @@ import React, { useState, useRef } from 'react';
 import { Service } from '../types';
 import Button from './ui/Button';
 import ServiceModal from './ServiceModal';
-import { services } from '../content/services';
+import services from '../content/data/services.json';
+import { DemolitionIcon, TreeIcon, TireIcon, ConcreteIcon, RemodelIcon, PressureWashingIcon } from './ui/Icon';
+
+const iconMap: { [key: string]: React.ElementType } = {
+  demolition: DemolitionIcon,
+  remodel: RemodelIcon,
+  tree: TreeIcon,
+  concrete: ConcreteIcon,
+  tire: TireIcon,
+  pressureWashing: PressureWashingIcon,
+};
+
 
 interface ServiceCardProps {
   service: Service;
@@ -10,39 +21,42 @@ interface ServiceCardProps {
   onLearnMore: (service: Service, event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-const ServiceCard: React.FC<ServiceCardProps> = ({ service, onGetQuoteClick, onLearnMore }) => (
-  <div className="group bg-white rounded-lg shadow-xl overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
-    <div className="p-8 bg-brand-blue text-white flex items-center gap-4">
-      <div className="transition-transform duration-300 ease-in-out group-hover:scale-110 group-hover:-rotate-6">
-        <service.icon />
+const ServiceCard: React.FC<ServiceCardProps> = ({ service, onGetQuoteClick, onLearnMore }) => {
+  const IconComponent = iconMap[service.icon] || 'div';
+  return (
+    <div className="group bg-white rounded-lg shadow-xl overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
+      <div className="p-8 bg-brand-blue text-white flex items-center gap-4">
+        <div className="transition-transform duration-300 ease-in-out group-hover:scale-110 group-hover:-rotate-6">
+          <IconComponent />
+        </div>
+        <h3 className="text-2xl font-headline font-bold">{service.title}</h3>
       </div>
-      <h3 className="text-2xl font-headline font-bold">{service.title}</h3>
+      <div className="p-8 flex-grow">
+        <p className="mb-6">{service.description}</p>
+        <ul className="space-y-2">
+          {service.jobs.map((job) => (
+            <li key={job} className="flex items-start">
+              <span className="text-brand-gold mr-2 mt-1">✓</span>
+              <span>{job}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="p-8 pt-0 mt-auto grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <Button
+          onClick={(e) => onLearnMore(service, e)}
+          variant="outline"
+          className="w-full !text-brand-blue !border-brand-blue hover:!bg-brand-blue hover:!text-white"
+        >
+          Learn More
+        </Button>
+        <Button onClick={onGetQuoteClick} variant="secondary" className="w-full">
+          Get Quote
+        </Button>
+      </div>
     </div>
-    <div className="p-8 flex-grow">
-      <p className="mb-6">{service.description}</p>
-      <ul className="space-y-2">
-        {service.jobs.map((job) => (
-          <li key={job} className="flex items-start">
-            <span className="text-brand-gold mr-2 mt-1">✓</span>
-            <span>{job}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
-    <div className="p-8 pt-0 mt-auto grid grid-cols-1 sm:grid-cols-2 gap-4">
-       <Button 
-        onClick={(e) => onLearnMore(service, e)} 
-        variant="outline" 
-        className="w-full !text-brand-blue !border-brand-blue hover:!bg-brand-blue hover:!text-white"
-      >
-        Learn More
-      </Button>
-      <Button onClick={onGetQuoteClick} variant="secondary" className="w-full">
-        Get Quote
-      </Button>
-    </div>
-  </div>
-);
+  );
+};
 
 
 interface ServicesProps {
@@ -73,19 +87,19 @@ const Services = React.forwardRef<HTMLElement, ServicesProps>(({ onGetQuoteClick
             <p className="mt-2 text-lg text-gray-600">Safe. Fast. Done Right.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service) => (
-              <ServiceCard 
+            {(services as Service[]).map((service) => (
+              <ServiceCard
                 key={service.title}
-                service={service} 
-                onGetQuoteClick={onGetQuoteClick} 
-                onLearnMore={handleLearnMore} 
+                service={service}
+                onGetQuoteClick={onGetQuoteClick}
+                onLearnMore={handleLearnMore}
               />
             ))}
           </div>
         </div>
       </section>
       {selectedService && (
-        <ServiceModal 
+        <ServiceModal
           service={selectedService}
           onClose={handleCloseModal}
         />

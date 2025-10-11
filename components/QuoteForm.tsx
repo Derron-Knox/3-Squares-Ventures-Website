@@ -1,6 +1,6 @@
 import React, { useState, useRef, forwardRef } from 'react';
 import Button from './ui/Button';
-import { siteData } from '../content/siteData';
+import siteData from '../content/data/siteData.json';
 
 interface FormState {
   name: string;

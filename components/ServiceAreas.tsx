@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { siteData } from '../content/siteData';
+import siteData from '../content/data/siteData.json';
 
 const ServiceAreas: React.FC = () => {
   const [mapError, setMapError] = useState(false);

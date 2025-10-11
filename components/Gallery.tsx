@@ -1,6 +1,6 @@
 import React from 'react';
 import { Project } from '../types';
-import { projects } from '../content/projects';
+import projects from '../content/data/projects.json';
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => (
   <div 

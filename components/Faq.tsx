@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaqItem } from '../types';
 import { ChevronDownIcon } from './ui/Icon';
-import { faqItems } from '../content/faq';
+import faqItems from '../content/data/faq.json';
 
 const FaqItemComponent: React.FC<{ item: FaqItem; index: number }> = ({ item, index }) => {
     const [isOpen, setIsOpen] = useState(false);

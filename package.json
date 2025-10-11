@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "@stackbit/cms-git": "^1.0.35",
+    "@stackbit/types": "^2.1.14"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

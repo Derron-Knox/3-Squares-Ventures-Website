@@ -1,7 +1,7 @@
 import React from 'react';
 import { Testimonial } from '../types';
 import { StarIcon } from './ui/Icon';
-import { testimonials } from '../content/testimonials';
+import testimonials from '../content/data/testimonials.json';
 
 const StarRating: React.FC<{ rating: number }> = ({ rating }) => {
     return (

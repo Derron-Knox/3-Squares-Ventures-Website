@@ -1,8 +1,8 @@
 import { Service } from '../types';
-import { DemolitionIcon, TreeIcon, TireIcon, ConcreteIcon, RemodelIcon, PressureWashingIcon } from '../components/ui/Icon';
 
 const demolitionServices: Service = {
-  icon: DemolitionIcon,
+  // FIX: Type 'FC<{}>' is not assignable to type 'string'. Changed to string literal.
+  icon: 'demolition',
   title: 'Demolition Services',
   description: 'From single structures to full lot clearing, we handle all demolition jobs with precision and a focus on safety.',
   jobs: [
@@ -35,7 +35,8 @@ const demolitionServices: Service = {
 };
 
 const homeRemodelService: Service = {
-  icon: RemodelIcon,
+  // FIX: Type 'FC<{}>' is not assignable to type 'string'. Changed to string literal.
+  icon: 'remodel',
   title: 'Home Remodel Services',
   description: 'Transform your space with our full-service remodeling, from kitchens and baths to decks, fences, and whole-home renovations.',
   jobs: [
@@ -71,7 +72,8 @@ const homeRemodelService: Service = {
 };
 
 const treeServices: Service = {
-  icon: TreeIcon,
+  // FIX: Type 'FC<{}>' is not assignable to type 'string'. Changed to string literal.
+  icon: 'tree',
   title: 'Tree Services',
   description: 'Our expert crews safely manage everything from hazardous tree removal to routine pruning and emergency cleanup.',
   jobs: [
@@ -104,7 +106,8 @@ const treeServices: Service = {
 };
 
 const concreteServices: Service = {
-  icon: ConcreteIcon,
+  // FIX: Type 'FC<{}>' is not assignable to type 'string'. Changed to string literal.
+  icon: 'concrete',
   title: 'Concrete Services',
   description: 'We handle all aspects of concrete removal, from driveways and patios to foundations, with safe and efficient breaking and hauling.',
   jobs: [
@@ -137,7 +140,8 @@ const concreteServices: Service = {
 };
 
 const wasteTireHaulingService: Service = {
-  icon: TireIcon,
+  // FIX: Type 'FC<{}>' is not assignable to type 'string'. Changed to string literal.
+  icon: 'tire',
   title: 'Waste Tire Hauling',
   description: 'We responsibly collect and dispose of old tires from any location, helping you clean up your site.',
   jobs: [
@@ -170,7 +174,8 @@ const wasteTireHaulingService: Service = {
 };
 
 const pressureWashingService: Service = {
-  icon: PressureWashingIcon,
+  // FIX: Type 'FC<{}>' is not assignable to type 'string'. Changed to string literal.
+  icon: 'pressureWashing',
   title: 'Pressure Washing',
   description: 'Restore your property\'s curb appeal with our professional high-power washing for siding, driveways, decks, and more.',
   jobs: [

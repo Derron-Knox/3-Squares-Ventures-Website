@@ -8,7 +8,7 @@ export interface ServiceProjectExample {
 }
 
 export interface Service {
-  icon: React.ElementType;
+  icon: string;
   title: string;
   description: string;
   jobs: string[];
