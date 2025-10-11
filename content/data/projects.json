@@ -1,18 +1,34 @@
 [
   {
-    "imageSrc": "/gallery-demolition.jpg",
-    "caption": "Teardown & Land Grading"
+    "imageSrc": "/images/gallery/homedemo.png",
+    "caption": "Home Demolition - Complete Teardown"
   },
   {
-    "imageSrc": "/gallery-bathroom-remodel.jpg",
-    "caption": "Bathroom Remodel"
+    "imageSrc": "/images/gallery/brremo.png",
+    "caption": "Bathroom Renovation - Modern Update"
   },
   {
-    "imageSrc": "/gallery-roof-replacement.jpg",
-    "caption": "Roof Replacement"
+    "imageSrc": "/images/gallery/roof.png",
+    "caption": "Roof Replacement - Professional Installation"
   },
   {
-    "imageSrc": "/gallery-pressure-washing.jpg",
-    "caption": "Pressure Washing"
+    "imageSrc": "/images/gallery/kitchenreno.png",
+    "caption": "Kitchen Remodel - Full Renovation"
+  },
+  {
+    "imageSrc": "/images/gallery/treeremoval.png",
+    "caption": "Tree Removal - Safe & Efficient"
+  },
+  {
+    "imageSrc": "/images/gallery/concreteremoval.png",
+    "caption": "Concrete Removal - Site Preparation"
+  },
+  {
+    "imageSrc": "/images/gallery/pressurewash.png",
+    "caption": "Pressure Washing - Deck Cleaning"
+  },
+  {
+    "imageSrc": "/images/gallery/debris.png",
+    "caption": "Debris Removal - Complete Cleanup"
   }
 ]

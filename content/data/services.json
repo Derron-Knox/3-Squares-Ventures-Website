@@ -15,12 +15,12 @@
       {
         "title": "Home Teardown & Site Grading",
         "description": "Complete demolition of a residential property, followed by site clearing and grading for new construction.",
-        "image": "/gallery-demolition.jpg"
+        "image": "/images/gallery/homedemo.png"
       },
       {
-        "title": "Commercial Interior Gut-Out",
-        "description": "Stripped a 10,000 sq ft retail space back to the studs for a full remodel, carefully preserving structural elements and systems.",
-        "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=75&w=800&auto=format&fit=crop"
+        "title": "Debris Removal & Cleanup",
+        "description": "Professional hauling and complete site cleanup after demolition projects.",
+        "image": "/images/gallery/debris.png"
       }
     ],
     "safetyProtocols": [
@@ -50,12 +50,12 @@
       {
         "title": "Full Bathroom Renovation",
         "description": "Complete gut and remodel of an outdated bathroom, featuring new tile, vanity, and modern fixtures.",
-        "image": "/gallery-bathroom-remodel.jpg"
+        "image": "/images/gallery/brremo.png"
       },
       {
         "title": "Asphalt Shingle Roof Replacement",
         "description": "Full tear-off and replacement of an aging roof with new architectural shingles, ensuring long-term protection.",
-        "image": "/gallery-roof-replacement.jpg"
+        "image": "/images/gallery/roof.png"
       }
     ],
     "safetyProtocols": [
@@ -82,12 +82,12 @@
       {
         "title": "Crane-Assisted Oak Removal",
         "description": "Safely dismantled a 100-foot oak tree overhanging a home using a crane to lift sections away without property damage.",
-        "image": "https://images.unsplash.com/photo-1621980287829-23636f3ed45a?q=75&w=800&auto=format&fit=crop"
+        "image": "/images/gallery/treeremoval.png"
       },
       {
         "title": "Emergency Storm Response",
         "description": "Removed a large fallen pine from a roof, tarped the damaged area, and cleared all debris within hours of the call.",
-        "image": "https://images.unsplash.com/photo-1608223637402-a428c94622f9?q=75&w=800&auto=format&fit=crop"
+        "image": "/images/gallery/debris.png"
       }
     ],
     "safetyProtocols": [
@@ -114,12 +114,12 @@
       {
         "title": "Residential Driveway Replacement Prep",
         "description": "Broke up and removed a 1,200 sq ft cracked concrete driveway and walkway, preparing the site for a new pour.",
-        "image": "https://images.unsplash.com/photo-1589938517246-8575a7b8823b?q=75&w=800&auto=format&fit=crop"
+        "image": "/images/gallery/concreteremoval.png"
       },
       {
         "title": "Commercial Foundation Demolition",
         "description": "Demolished and cleared a 5,000 sq ft concrete slab foundation from a former commercial building for site redevelopment.",
-        "image": "https://images.unsplash.com/photo-1626284267482-882da70a1a0f?q=75&w=800&auto=format&fit=crop"
+        "image": "/images/gallery/kitchenreno.png"
       }
     ],
     "safetyProtocols": [
@@ -146,12 +146,12 @@
       {
         "title": "Commercial Lot Cleanup",
         "description": "Removed over 500 tires from an abandoned commercial lot, preparing it for redevelopment.",
-        "image": "https://images.unsplash.com/photo-1544828331-56e6a4b13a89?q=75&w=800&auto=format&fit=crop"
+        "image": "/images/gallery/debris.png"
       },
       {
         "title": "Post-Construction Site Clearing",
         "description": "Collected and hauled away waste tires left behind after a major construction project, ensuring the site was clean and compliant.",
-        "image": "https://images.unsplash.com/photo-1628522513498-25cfb867c46a?q=75&w=800&auto=format&fit=crop"
+        "image": "/images/gallery/treeremoval.png"
       }
     ],
     "safetyProtocols": [
@@ -178,12 +178,12 @@
       {
         "title": "Brick & Concrete Power Washing",
         "description": "Restored a brick facade and concrete patio to their original appearance, removing years of dirt and grime.",
-        "image": "/gallery-pressure-washing.jpg"
+        "image": "/images/gallery/pressurewash.png"
       },
       {
         "title": "Vinyl Siding Mold & Mildew Treatment",
         "description": "Safely cleaned green and black mold from a home's north-facing vinyl siding, dramatically improving its curb appeal.",
-        "image": "https://images.unsplash.com/photo-1621253921312-51a8220ab421?q=75&w=800&auto=format&fit=crop"
+        "image": "/images/gallery/pressurewash.png"
       }
     ],
     "safetyProtocols": [
