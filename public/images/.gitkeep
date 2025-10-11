@@ -1,0 +1,6 @@
+# Images directory for uploaded assets
+#
+# Structure:
+# - /gallery/ - Project gallery images
+# - /services/ - Service-related images
+# - Root level - General site images

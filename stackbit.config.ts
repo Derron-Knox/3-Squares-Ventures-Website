@@ -4,11 +4,18 @@ import { GitContentSource } from '@stackbit/cms-git';
 
 export default defineStackbitConfig({
   stackbitVersion: '~0.6.0',
+  ssgName: 'custom',
+  nodeVersion: '18',
   contentSources: [
     new GitContentSource({
-      // FIX: Replaced `__dirname` with `'.'` to resolve "Cannot find name '__dirname'" error.
       rootPath: '.',
       contentDirs: ['content/data'],
+      assetsConfig: {
+        referenceType: 'static',
+        staticDir: 'public',
+        uploadDir: 'images',
+        publicPath: '/'
+      },
       models: [
         // Site Data Model
         {
