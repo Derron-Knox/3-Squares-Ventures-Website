@@ -20,12 +20,12 @@ const demolitionServices: Service = {
     {
       title: 'Single-Family Home Teardown',
       description: 'Complete demolition of a fire-damaged 2,500 sq ft house, including foundation removal and site grading for new construction.',
-      image: 'https://images.unsplash.com/photo-1604479937144-33d3d4411649?q=75&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1521927359444-150a00501b22?q=75&w=800&auto=format&fit=crop'
     },
     {
       title: 'Commercial Interior Gut-Out',
       description: 'Stripped a 10,000 sq ft retail space back to the studs for a full remodel, carefully preserving structural elements and systems.',
-      image: 'https://images.unsplash.com/photo-1588796123733-a94709af4e7e?q=75&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1581094376366-2d04a6f97472?q=75&w=800&auto=format&fit=crop'
     }
   ],
   safetyProtocols: [
@@ -56,12 +56,12 @@ const homeRemodelService: Service = {
     {
       title: 'Modern Kitchen Overhaul',
       description: 'Complete gut and remodel of a 1980s kitchen, featuring custom cabinetry, quartz countertops, and a functional island.',
-      image: 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=75&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1556911220-e1af84793e35?q=75&w=800&auto=format&fit=crop'
     },
     {
-      title: 'Luxury Master Bath Update',
-      description: 'Transformed an outdated master bathroom into a spa-like retreat with a walk-in shower, freestanding tub, and dual vanity.',
-      image: 'https://images.unsplash.com/photo-1632994073347-abc2b7f07c74?q=75&w=800&auto=format&fit=crop'
+      title: 'Post-Storm Insurance Restoration',
+      description: 'Managed an insurance claim for a fallen tree; roof repairs, siding replacement, and structural fixes all coordinated with the insurer.',
+      image: 'https://images.unsplash.com/photo-1563242091-53644036f06a?q=75&w=800&auto=format&fit=crop'
     }
   ],
   safetyProtocols: [
@@ -89,12 +89,12 @@ const treeServices: Service = {
     {
       title: 'Crane-Assisted Oak Removal',
       description: 'Safely dismantled a 100-foot oak tree overhanging a home using a crane to lift sections away without property damage.',
-      image: 'https://images.unsplash.com/photo-1621968853629-43c77b35043f?q=75&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1621980287829-23636f3ed45a?q=75&w=800&auto=format&fit=crop'
     },
     {
       title: 'Emergency Storm Response',
       description: 'Removed a large fallen pine from a roof, tarped the damaged area, and cleared all debris within hours of the call.',
-      image: 'https://images.unsplash.com/photo-1589112874977-13356079b7b9?q=75&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1608223637402-a428c94622f9?q=75&w=800&auto=format&fit=crop'
     }
   ],
   safetyProtocols: [
@@ -122,12 +122,12 @@ const concreteServices: Service = {
     {
       title: 'Residential Driveway Replacement Prep',
       description: 'Broke up and removed a 1,200 sq ft cracked concrete driveway and walkway, preparing the site for a new pour.',
-      image: 'https://images.unsplash.com/photo-1617066923412-4c57173e1cb1?q=75&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1589938517246-8575a7b8823b?q=75&w=800&auto=format&fit=crop'
     },
     {
       title: 'Commercial Foundation Demolition',
       description: 'Demolished and cleared a 5,000 sq ft concrete slab foundation from a former commercial building for site redevelopment.',
-      image: 'https://images.unsplash.com/photo-1576013359334-05a7692db213?q=75&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1626284267482-882da70a1a0f?q=75&w=800&auto=format&fit=crop'
     }
   ],
   safetyProtocols: [
@@ -155,12 +155,12 @@ const wasteTireHaulingService: Service = {
     {
       title: 'Commercial Lot Cleanup',
       description: 'Removed over 500 tires from an abandoned commercial lot, preparing it for redevelopment.',
-      image: 'https://images.unsplash.com/photo-1563278911-39659a85231a?q=75&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1544828331-56e6a4b13a89?q=75&w=800&auto=format&fit=crop'
     },
     {
       title: 'Post-Construction Site Clearing',
       description: 'Collected and hauled away waste tires left behind after a major construction project, ensuring the site was clean and compliant.',
-      image: 'https://images.unsplash.com/photo-1619453911138-2c2d4a5a1375?q=75&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1628522513498-25cfb867c46a?q=75&w=800&auto=format&fit=crop'
     }
   ],
   safetyProtocols: [
@@ -188,12 +188,12 @@ const pressureWashingService: Service = {
     {
       title: 'Driveway Grime Removal',
       description: 'Restored a heavily stained concrete driveway to its original bright finish, removing years of oil stains and dirt buildup.',
-      image: 'https://images.unsplash.com/photo-1621653245053-43303a1158a1?q=75&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1607528994510-53472a2353a2?q=75&w=800&auto=format&fit=crop'
     },
     {
       title: 'Vinyl Siding Mold & Mildew Treatment',
       description: 'Safely cleaned green and black mold from a home\'s north-facing vinyl siding, dramatically improving its curb appeal.',
-      image: 'https://images.unsplash.com/photo-1607581987535-da6373b3135b?q=75&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=75&w=800&auto=format&fit=crop'
     }
   ],
   safetyProtocols: [
