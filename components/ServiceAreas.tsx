@@ -1,9 +1,5 @@
-
 import React, { useState } from 'react';
-
-const serviceAreas = [
-  'Jackson Metro', 'The Delta', 'Gulf Coast', 'Pine Belt', 'Golden Triangle', 'and statewide for major projects.'
-];
+import { siteData } from '../content/siteData';
 
 const ServiceAreas: React.FC = () => {
   const [mapError, setMapError] = useState(false);
@@ -21,15 +17,15 @@ const ServiceAreas: React.FC = () => {
             <div className="mt-6">
               <h3 className="text-xl font-headline font-semibold text-brand-blue">Areas We Serve Include:</h3>
               <p className="mt-2 text-gray-600 leading-relaxed">
-                {serviceAreas.join(', ')}
+                {siteData.serviceAreas.join(', ')}
               </p>
             </div>
           </div>
           <div className="relative h-96 rounded-lg shadow-md overflow-hidden bg-gray-200">
             {mapError ? (
               <img 
-                src="https://images.unsplash.com/photo-1581171801235-186e2a86c66a?q=75&w=800&auto=format&fit=crop" 
-                alt="3 Squares Ventures LLC worksite with heavy machinery" 
+                src="https://images.unsplash.com/photo-1617439588924-74d1506b3a99?q=75&w=800&auto=format&fit=crop" 
+                alt="Welcome to Mississippi sign, representing the service area of 3 Squares Ventures LLC" 
                 className="w-full h-full object-cover"
               />
             ) : (

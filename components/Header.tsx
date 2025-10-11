@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { PhoneIcon, MenuIcon, XIcon } from './ui/Icon';
 import Button from './ui/Button';
+import { siteData } from '../content/siteData';
 
 interface HeaderProps {
   onGetQuoteClick: () => void;
@@ -104,13 +105,13 @@ const Header: React.FC<HeaderProps> = ({
           </nav>
 
           <div className="hidden md:flex items-center gap-6">
-            <a href="tel:469-907-4920" className="flex items-center gap-2 hover:text-brand-gold transition-colors">
+            <a href={siteData.phone1.href} className="flex items-center gap-2 hover:text-brand-gold transition-colors">
               <PhoneIcon />
-              <span className="font-semibold">(469) 907-4920</span>
+              <span className="font-semibold">{siteData.phone1.display}</span>
             </a>
-            <a href="tel:601-937-8822" className="flex items-center gap-2 hover:text-brand-gold transition-colors">
+            <a href={siteData.phone2.href} className="flex items-center gap-2 hover:text-brand-gold transition-colors">
               <PhoneIcon />
-              <span className="font-semibold">(601) 937-8822</span>
+              <span className="font-semibold">{siteData.phone2.display}</span>
             </a>
             <Button onClick={onGetQuoteClick}>
               Get a Free Quote
@@ -173,13 +174,13 @@ const Header: React.FC<HeaderProps> = ({
           <NavLink onClick={() => handleMobileLinkClick(onAboutClick)}>About Us</NavLink>
           <NavLink onClick={() => handleMobileLinkClick(onContactClick)}>Contact</NavLink>
           <div className="border-t border-gray-600 w-full my-4"></div>
-          <a href="tel:469-907-4920" className="flex items-center gap-2 hover:text-brand-gold transition-colors text-lg">
+          <a href={siteData.phone1.href} className="flex items-center gap-2 hover:text-brand-gold transition-colors text-lg">
             <PhoneIcon />
-            <span className="font-semibold">(469) 907-4920</span>
+            <span className="font-semibold">{siteData.phone1.display}</span>
           </a>
-          <a href="tel:601-937-8822" className="flex items-center gap-2 hover:text-brand-gold transition-colors text-lg">
+          <a href={siteData.phone2.href} className="flex items-center gap-2 hover:text-brand-gold transition-colors text-lg">
             <PhoneIcon />
-            <span className="font-semibold">(601) 937-8822</span>
+            <span className="font-semibold">{siteData.phone2.display}</span>
           </a>
           <Button onClick={() => handleMobileLinkClick(onGetQuoteClick)} className="w-full mt-4">
             Get a Free Quote

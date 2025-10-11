@@ -1,0 +1,19 @@
+export const siteData = {
+  phone1: {
+    display: '(469) 907-4920',
+    href: 'tel:469-907-4920',
+  },
+  phone2: {
+    display: '(601) 937-8822',
+    href: 'tel:601-937-8822',
+  },
+  email: 'info@3squaresventures.com',
+  serviceAreas: [
+    'Jackson Metro', 
+    'The Delta', 
+    'Gulf Coast', 
+    'Pine Belt', 
+    'Golden Triangle', 
+    'and statewide for major projects.'
+  ],
+};

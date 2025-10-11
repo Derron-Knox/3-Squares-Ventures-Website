@@ -1,0 +1,44 @@
+import { Project } from '../types';
+
+export const projects: Project[] = [
+  { 
+    beforeSrc: 'https://images.unsplash.com/photo-1593863166532-3f1c6d3509ee?q=75&w=600&auto=format&fit=crop', 
+    afterSrc: 'https://images.unsplash.com/photo-1517478542075-2a2b354a7135?q=75&w=600&auto=format&fit=crop',
+    caption: 'Complete Home Demolition' 
+  },
+  { 
+    beforeSrc: 'https://images.unsplash.com/photo-1604707902905-01e749b56f8f?q=75&w=600&auto=format&fit=crop', 
+    afterSrc: 'https://images.unsplash.com/photo-1600122216479-de674a7b5a1a?q=75&w=600&auto=format&fit=crop', 
+    caption: 'Bathroom Remodeling' 
+  },
+  { 
+    beforeSrc: 'https://images.unsplash.com/photo-1627993355482-41f87962137a?q=75&w=600&auto=format&fit=crop', 
+    afterSrc: 'https://images.unsplash.com/photo-1607698563721-3e3a4f6d3f2f?q=75&w=600&auto=format&fit=crop', 
+    caption: 'Roof Replacement' 
+  },
+  { 
+    beforeSrc: 'https://images.unsplash.com/photo-1633008892122-d7b4d8f8955d?q=75&w=600&auto=format&fit=crop', 
+    afterSrc: 'https://images.unsplash.com/photo-1621653245053-43303a1158a1?q=75&w=600&auto=format&fit=crop', 
+    caption: 'Pressure Washing Services' 
+  },
+  { 
+    beforeSrc: 'https://images.unsplash.com/photo-1543096222-154911786532?q=75&w=600&auto=format&fit=crop', 
+    afterSrc: 'https://images.unsplash.com/photo-1542274368-3827d040a453?q=75&w=600&auto=format&fit=crop', 
+    caption: 'Tree Removal & Land Clearing' 
+  },
+  { 
+    beforeSrc: 'https://images.unsplash.com/photo-1614364443423-5e4b78535a74?q=75&w=600&auto=format&fit=crop', 
+    afterSrc: 'https://images.unsplash.com/photo-1604533439999-0d6447d079d3?q=75&w=600&auto=format&fit=crop', 
+    caption: 'Concrete Removal & Replacement' 
+  },
+  { 
+    beforeSrc: 'https://images.unsplash.com/photo-1565538885338-7634871639f7?q=75&w=600&auto=format&fit=crop', 
+    afterSrc: 'https://images.unsplash.com/photo-1600585152225-3579fe9d9599?q=75&w=600&auto=format&fit=crop', 
+    caption: 'Kitchen Renovation' 
+  },
+  { 
+    beforeSrc: 'https://images.unsplash.com/photo-1618585695834-30d8a55635a2?q=75&w=600&auto=format&fit=crop', 
+    afterSrc: 'https://images.unsplash.com/photo-1617850849332-959c58253177?q=75&w=600&auto=format&fit=crop', 
+    caption: 'Debris & Tire Removal' 
+  },
+];

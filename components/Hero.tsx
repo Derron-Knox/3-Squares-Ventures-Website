@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({ onGetQuoteClick }) => {
   return (
     <section 
       className="relative bg-cover bg-center bg-fixed text-white py-32 md:py-48" 
-      style={{ backgroundImage: `url('https://images.unsplash.com/photo-1521927359444-150a00501b22?q=75&w=1920&auto=format&fit=crop')` }}
+      style={{ backgroundImage: `url('https://images.unsplash.com/photo-1604480133478-55b273b5d27cd?q=80&w=1920&auto=format&fit=crop')` }}
       aria-labelledby="hero-heading"
     >
       <div className="absolute inset-0 bg-brand-gray bg-opacity-60"></div>

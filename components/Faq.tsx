@@ -1,15 +1,7 @@
 import React, { useState } from 'react';
 import { FaqItem } from '../types';
 import { ChevronDownIcon } from './ui/Icon';
-
-const faqItems: FaqItem[] = [
-  { question: "Do I need a permit for my demolition project?", answer: "It depends on the scope and location of your project. We can guide you through the permitting process and help ensure all necessary paperwork is filed with the local authorities." },
-  { question: "How do you handle utility lines before demolition?", answer: "Safety is our top priority. We coordinate with local utility companies to locate and safely disconnect all gas, water, and electrical lines before any work begins." },
-  { question: "How is the price for demolition or tree removal determined?", answer: "Pricing is based on several factors, including the size and complexity of the structure or tree, site accessibility, and the amount of debris to be removed. We provide free, detailed on-site estimates for accurate pricing." },
-  { question: "Can you work in tight spaces or near other buildings?", answer: "Absolutely. Our experienced crews are skilled in surgical demolition and precision tree removal, using specialized equipment to work safely in confined areas without damaging adjacent properties." },
-  { question: "Do you haul away all debris, including stumps?", answer: "Yes, our service is comprehensive. We handle all debris removal, hauling, and disposal. Stump grinding and complete stump removal are also core services we offer." },
-  { question: "Are you licensed and insured?", answer: "Yes, 3 Squares Ventures LLC is fully licensed and carries comprehensive general liability and workers' compensation insurance. We are happy to provide proof of insurance upon request." },
-];
+import { faqItems } from '../content/faq';
 
 const FaqItemComponent: React.FC<{ item: FaqItem; index: number }> = ({ item, index }) => {
     const [isOpen, setIsOpen] = useState(false);

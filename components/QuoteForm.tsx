@@ -1,5 +1,6 @@
 import React, { useState, useRef, forwardRef } from 'react';
 import Button from './ui/Button';
+import { siteData } from '../content/siteData';
 
 interface FormState {
   name: string;
@@ -83,7 +84,7 @@ const QuoteForm = forwardRef<HTMLDivElement>((props, ref) => {
       ${formState.description}
     `.replace(/\n\s+/g, '\n').trim();
     
-    window.location.href = `mailto:info@3squaresventures.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:${siteData.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   const labelStyles = "block text-sm font-medium text-gray-700 mb-1";
