@@ -93,7 +93,7 @@ const Header: React.FC<HeaderProps> = ({
       <header className="bg-brand-gray text-white sticky top-0 z-40 shadow-lg">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <a href="#" className="flex-shrink-0" aria-label="3 Squares Ventures LLC Home">
-            <img src="/logo.svg" alt="3 Squares Ventures LLC Logo" className="h-16 w-auto" />
+            <img src="/images/3SquaresVenturesLLCLogo.png" alt="3 Squares Ventures LLC Logo" className="h-16 w-auto" />
           </a>
 
           {/* Desktop Navigation */}
