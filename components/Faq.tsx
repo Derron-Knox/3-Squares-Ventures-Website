@@ -3,10 +3,10 @@ import { FaqItem } from '../types';
 import { ChevronDownIcon } from './ui/Icon';
 import faqItems from '../content/data/faq.json';
 
-const FaqItemComponent: React.FC<{ item: FaqItem; index: number }> = ({ item, index }) => {
+const FaqItemComponent: React.FC<{ item: FaqItem }> = ({ item }) => {
     const [isOpen, setIsOpen] = useState(false);
-    const panelId = `faq-panel-${index}`;
-    const buttonId = `faq-button-${index}`;
+    const panelId = `faq-panel-${item.id}`;
+    const buttonId = `faq-button-${item.id}`;
 
     return (
         <div className="border-b border-gray-200">
@@ -43,8 +43,8 @@ const Faq: React.FC = () => {
           <h2 className="text-4xl font-headline font-bold text-brand-gray">Frequently Asked Questions</h2>
         </div>
         <div className="max-w-3xl mx-auto">
-          {faqItems.map((item, index) => (
-            <FaqItemComponent key={index} item={item} index={index} />
+          {faqItems.map((item) => (
+            <FaqItemComponent key={item.id} item={item} />
           ))}
         </div>
       </div>

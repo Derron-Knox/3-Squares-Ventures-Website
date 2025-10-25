@@ -57,4 +57,6 @@ const WhyChooseUs = React.forwardRef<HTMLElement>((props, ref) => {
   );
 });
 
+WhyChooseUs.displayName = 'WhyChooseUs';
+
 export default WhyChooseUs;

@@ -1,0 +1,17 @@
+# Cloudflare Pages Configuration
+# Documentation: https://developers.cloudflare.com/pages/
+
+name = "3-squares-ventures-website"
+compatibility_date = "2024-10-11"
+
+# Pages configuration
+pages_build_output_dir = "dist"
+
+[build]
+command = "npm run build"
+
+[build.environment]
+NODE_VERSION = "18"
+
+# Environment variables (set in Cloudflare dashboard)
+# GEMINI_API_KEY will be available as process.env.GEMINI_API_KEY

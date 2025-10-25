@@ -19,7 +19,7 @@ A modern, responsive website for 3 Squares Ventures LLC built with React, TypeSc
 - **Build Tool**: Vite 6
 - **CMS**: Stackbit GitCMS
 - **Styling**: TailwindCSS (via index.html)
-- **Deployment**: Ready for Netlify, Vercel, or similar
+- **Deployment**: Optimized for Cloudflare Pages (also compatible with Netlify, Vercel)
 
 ## Quick Start
 
@@ -86,7 +86,29 @@ The built files will be in the `dist/` directory, ready for deployment.
 
 ## Deployment
 
-This site can be deployed to any static hosting service:
+This site is optimized for Cloudflare Pages but works with any static hosting:
+
+### Cloudflare Pages (Recommended)
+
+**Quick Deploy:**
+
+1. Push your code to GitHub/GitLab
+2. Connect repository in [Cloudflare Pages](https://dash.cloudflare.com/)
+3. Build command: `npm run build`
+4. Output directory: `dist`
+5. Deploy!
+
+**Benefits:**
+
+- Unlimited bandwidth (free)
+- Global CDN with 300+ edge locations
+- Automatic SSL/TLS
+- Preview deployments for PRs
+- Built-in DDoS protection
+
+See [CLOUDFLARE_SETUP.md](CLOUDFLARE_SETUP.md) for detailed setup instructions.
+
+### Alternative Platforms
 
 - **Netlify**: Connect your git repository and set build command to `npm run build`
 - **Vercel**: Import project and it will auto-detect Vite configuration
@@ -105,28 +127,9 @@ Content models are defined in [stackbit.config.ts](stackbit.config.ts):
 
 - **[QUICK_START.md](QUICK_START.md)** - 5-minute setup guide
 - **[CONTENT_GUIDE.md](CONTENT_GUIDE.md)** - How to edit content (for editors)
-- **[NETLIFY_SETUP.md](NETLIFY_SETUP.md)** - Netlify deployment with Visual Editor
+- **[CLOUDFLARE_SETUP.md](CLOUDFLARE_SETUP.md)** - Cloudflare Pages deployment guide (recommended)
+- **[NETLIFY_SETUP.md](NETLIFY_SETUP.md)** - Netlify deployment with Visual Editor (alternative)
 - **[GITCMS_RESTRUCTURE.md](GITCMS_RESTRUCTURE.md)** - Technical architecture details
-
-## Deployment
-
-### Netlify (Recommended)
-
-This site is optimized for Netlify deployment with Visual Editor support.
-
-**Quick Deploy:**
-
-```bash
-git push origin main
-```
-
-Then follow [NETLIFY_SETUP.md](NETLIFY_SETUP.md) for complete deployment instructions.
-
-### Other Platforms
-
-- **Vercel**: Import project, auto-detects configuration
-- **GitHub Pages**: Deploy `dist/` folder after `npm run build`
-- **Any Static Host**: Upload `dist/` folder contents
 
 ## License
 

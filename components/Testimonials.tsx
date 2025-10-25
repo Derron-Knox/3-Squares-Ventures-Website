@@ -22,8 +22,8 @@ const Testimonials: React.FC = () => {
           <p className="mt-2 text-lg text-gray-300">Our reputation is built on satisfied customers.</p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-white text-brand-gray p-8 rounded-lg shadow-lg flex flex-col">
+          {testimonials.map((testimonial) => (
+            <div key={testimonial.id} className="bg-white text-brand-gray p-8 rounded-lg shadow-lg flex flex-col">
               <StarRating rating={testimonial.rating} />
               <blockquote className="mt-4 text-lg italic flex-grow">"{testimonial.quote}"</blockquote>
               <footer className="mt-6 font-headline font-bold text-right">

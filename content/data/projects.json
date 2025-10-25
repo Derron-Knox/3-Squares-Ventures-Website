@@ -1,33 +1,41 @@
 [
   {
+    "id": "project-1",
     "imageSrc": "/images/gallery/homedemo.png",
     "caption": "Home Demolition - Complete Teardown"
   },
   {
+    "id": "project-2",
     "imageSrc": "/images/gallery/brremo.png",
     "caption": "Bathroom Renovation - Modern Update"
   },
   {
+    "id": "project-3",
     "imageSrc": "/images/gallery/roof.png",
     "caption": "Roof Replacement - Professional Installation"
   },
   {
+    "id": "project-4",
     "imageSrc": "/images/gallery/kitchenreno.png",
     "caption": "Kitchen Remodel - Full Renovation"
   },
   {
+    "id": "project-5",
     "imageSrc": "/images/gallery/treeremoval.png",
     "caption": "Tree Removal - Safe & Efficient"
   },
   {
+    "id": "project-6",
     "imageSrc": "/images/gallery/concreteremoval.png",
     "caption": "Concrete Removal - Site Preparation"
   },
   {
+    "id": "project-7",
     "imageSrc": "/images/gallery/pressurewash.png",
     "caption": "Pressure Washing - Deck Cleaning"
   },
   {
+    "id": "project-8",
     "imageSrc": "/images/gallery/debris.png",
     "caption": "Debris Removal - Complete Cleanup"
   }

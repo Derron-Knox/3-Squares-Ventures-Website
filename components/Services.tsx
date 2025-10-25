@@ -108,4 +108,6 @@ const Services = React.forwardRef<HTMLElement, ServicesProps>(({ onGetQuoteClick
   );
 });
 
+Services.displayName = 'Services';
+
 export default Services;

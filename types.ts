@@ -18,11 +18,13 @@ export interface Service {
 }
 
 export interface Project {
+  id: string;
   imageSrc: string;
   caption: string;
 }
 
 export interface Testimonial {
+  id: string;
   quote: string;
   name: string;
   location: string;
@@ -30,6 +32,7 @@ export interface Testimonial {
 }
 
 export interface FaqItem {
+  id: string;
   question: string;
   answer: string;
 }

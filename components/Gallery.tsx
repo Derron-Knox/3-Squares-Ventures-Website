@@ -32,13 +32,15 @@ const Gallery = React.forwardRef<HTMLElement>((props, ref) => {
           <p className="mt-2 text-lg text-gray-600">See the quality of our work for yourself.</p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {projects.map((project, index) => (
-            <ProjectCard key={index} project={project} />
+          {projects.map((project) => (
+            <ProjectCard key={project.id} project={project} />
           ))}
         </div>
       </div>
     </section>
   );
 });
+
+Gallery.displayName = 'Gallery';
 
 export default Gallery;

@@ -57,4 +57,6 @@ const OurProcess = React.forwardRef<HTMLElement>((props, ref) => {
   );
 });
 
+OurProcess.displayName = 'OurProcess';
+
 export default OurProcess;

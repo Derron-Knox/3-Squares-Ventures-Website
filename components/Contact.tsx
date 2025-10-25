@@ -29,4 +29,6 @@ const Contact = React.forwardRef<HTMLElement>((props, ref) => {
   );
 });
 
+Contact.displayName = 'Contact';
+
 export default Contact;
